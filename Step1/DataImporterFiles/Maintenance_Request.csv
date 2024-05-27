@@ -1,0 +1,391 @@
+MID,Issue_Description,Date_Reported,RID,SID
+11,Leaking pipe,2023-09-08,70,35
+12,Freezing refrigerator,2023-05-16,149,174
+13,Flickering lights,2024-04-06,229,399
+14,Dripping shower,2023-02-22,155,39
+15,Broken door,2023-10-24,358,16
+16,Water damage,2023-07-15,356,215
+17,Soggy drywall,2023-05-08,88,52
+18,Plumbing issue,2023-07-26,284,271
+19,Cabinet door broken,2023-02-14,241,158
+20,Pest infestation,2023-11-03,208,313
+21,Window won't close,2023-01-23,113,333
+22,Cabinet door broken,2023-03-13,76,341
+23,Cracked wall,2023-02-19,394,4
+24,AC not working,2023-05-08,236,99
+25,Broken drawer,2023-06-04,119,12
+26,Hissing radiator,2024-03-06,324,55
+27,Leaky faucet,2024-02-19,277,9
+28,Flickering screen,2023-01-25,270,203
+29,Graffiti,2023-01-25,48,238
+30,No hot water,2023-10-05,250,334
+31,Heater issue,2023-12-12,91,138
+32,Cracked wall,2023-01-22,400,203
+33,Leaky roof,2023-12-04,105,8
+34,Freezing refrigerator,2023-07-26,321,213
+35,Broken switch,2023-08-20,225,233
+36,Toilet clog,2023-10-24,115,266
+37,Leaking pipe,2024-05-05,256,371
+38,Leaky roof,2023-11-18,202,312
+39,Cabinet door broken,2024-03-24,229,97
+40,Broken switch,2024-05-17,286,242
+41,Jammed lock,2023-11-06,319,7
+42,Squeaky floor,2023-07-19,47,213
+43,Loose tile,2024-02-26,43,333
+44,Graffiti,2023-01-28,119,319
+45,Air conditioning leak,2023-04-18,308,53
+46,Cracked sidewalk,2023-11-25,182,164
+47,Rattling pipes,2023-05-10,39,92
+48,Loose tile,2023-09-10,223,269
+49,Toilet clog,2024-01-08,172,115
+50,Jammed garbage disposal,2023-08-05,202,392
+51,Loose tile,2024-01-07,182,384
+52,Ceiling leak,2024-03-24,158,397
+53,Heater issue,2023-01-18,355,291
+54,Soggy drywall,2023-11-14,115,65
+55,Broken window,2023-05-30,129,79
+56,Rodent sighting,2023-06-14,238,174
+57,Leaky faucet,2023-04-14,321,359
+58,Broken thermostat,2023-01-10,67,19
+59,Mold growth,2023-10-05,9,184
+60,Cracked wall,2023-09-06,58,42
+61,Plumbing issue,2023-07-14,58,37
+62,No hot water,2023-11-24,212,210
+63,Broken drawer,2023-06-18,15,314
+64,Clogged drain,2023-04-18,371,370
+65,Foul smell,2024-03-27,56,204
+66,Water damage,2023-09-27,326,381
+67,Moldy odor,2023-12-18,128,271
+68,Graffiti,2023-05-23,268,110
+69,Soggy drywall,2023-12-22,294,153
+70,Rusty faucet,2023-06-29,120,142
+71,Air conditioning leak,2023-02-20,10,261
+72,Cracked wall,2023-10-10,190,257
+73,Ceiling leak,2024-04-21,200,35
+74,Mold growth,2023-06-21,116,7
+75,Broken switch,2023-02-09,117,365
+76,Ceiling leak,2023-09-01,75,352
+77,Damaged flooring,2024-04-01,209,378
+78,Faulty wiring,2023-11-10,102,231
+79,Loose tile,2023-06-30,48,166
+80,Toilet clog,2023-09-10,192,317
+81,Flickering lights,2024-04-06,71,342
+82,Leaky faucet,2023-01-04,36,242
+83,Graffiti,2023-02-28,209,397
+84,Broken lock,2024-04-12,205,292
+85,Toilet clog,2024-04-17,360,142
+86,Squeaky floor,2024-01-09,353,297
+87,Clogged drain,2023-12-17,134,253
+88,Flickering screen,2023-10-25,69,227
+89,Hissing radiator,2023-03-17,86,212
+90,Soggy drywall,2023-09-26,57,24
+91,AC not working,2024-04-16,45,366
+92,Broken door,2023-02-06,387,42
+93,Freezing refrigerator,2023-03-19,74,298
+94,Broken thermostat,2023-08-01,186,230
+95,Rattling pipes,2023-04-01,99,348
+96,Rusty faucet,2023-04-04,392,313
+97,Rusty faucet,2024-05-05,321,199
+98,Broken door,2024-05-20,152,282
+99,Plumbing issue,2023-11-14,125,360
+100,Flickering screen,2023-03-24,159,42
+101,Broken window,2023-12-27,166,120
+102,AC not working,2023-07-23,48,212
+103,Broken drawer,2023-12-28,322,365
+104,Broken thermostat,2023-11-20,251,327
+105,Water damage,2024-03-06,50,116
+106,Window won't close,2023-04-20,244,369
+107,Faulty wiring,2023-05-04,384,106
+108,Pest infestation,2024-03-17,301,357
+109,Loose tile,2023-04-19,266,246
+110,Stained carpet,2023-07-13,199,52
+111,AC not working,2023-03-02,191,373
+112,Broken drawer,2023-12-06,341,14
+113,Stuck window,2023-11-23,230,226
+114,Leaky faucet,2023-09-04,67,323
+115,Soggy drywall,2023-09-23,127,178
+116,No hot water,2023-05-28,14,140
+117,Clogged drain,2024-04-07,27,191
+118,Water damage,2023-11-28,175,110
+119,Flickering lights,2023-12-09,247,104
+120,Rusty faucet,2023-12-09,268,100
+121,Hissing radiator,2023-11-23,35,15
+122,Soggy drywall,2024-02-15,227,58
+123,Graffiti,2023-03-19,211,257
+124,Soggy drywall,2023-04-08,141,28
+125,Flickering screen,2023-02-23,373,374
+126,Broken thermostat,2023-12-14,25,362
+127,Flickering lights,2023-02-21,76,232
+128,Broken window,2023-11-17,257,12
+129,Hissing radiator,2023-06-18,164,104
+130,Broken drawer,2023-02-09,39,120
+131,Faulty wiring,2023-09-15,398,68
+132,Stuck window,2024-03-08,135,206
+133,Rodent sighting,2024-03-20,190,89
+134,Leaking pipe,2023-07-27,124,367
+135,Mold growth,2024-01-15,217,43
+136,Broken switch,2023-01-20,2,29
+137,Toilet clog,2023-12-01,204,116
+138,Damaged fence,2024-03-21,181,121
+139,Cracked sidewalk,2024-04-24,283,123
+140,Damaged fence,2024-01-07,271,316
+141,Flickering lights,2023-09-02,87,330
+142,Leaky roof,2024-02-02,9,117
+143,Loose tile,2024-02-05,86,159
+144,Graffiti,2023-10-03,157,102
+145,Squeaky floor,2024-02-14,152,109
+146,AC not working,2023-07-01,196,397
+147,Damaged fence,2023-06-27,323,10
+148,Toilet clog,2023-03-07,155,223
+149,Freezing refrigerator,2024-04-08,350,196
+150,Smashed mirror,2023-01-07,314,274
+151,Broken window,2023-12-29,45,84
+152,Leaky faucet,2023-08-26,236,71
+153,Foul smell,2023-03-04,96,50
+154,Pest infestation,2023-04-12,315,379
+155,Dripping shower,2023-11-26,73,13
+156,Water damage,2023-02-06,275,365
+157,Plumbing issue,2023-02-06,143,159
+158,Window won't close,2024-01-10,336,373
+159,Soggy drywall,2023-11-30,328,25
+160,Air conditioning leak,2023-03-26,349,261
+161,Broken switch,2024-04-28,227,189
+162,Damaged fence,2023-02-05,35,69
+163,Damaged fence,2023-05-23,57,394
+164,Smashed mirror,2024-04-10,57,74
+165,Foul smell,2023-03-01,11,340
+166,Stained carpet,2024-01-09,135,339
+167,Cracked wall,2023-08-26,154,182
+168,Broken switch,2023-01-20,311,184
+169,Cracked sidewalk,2024-02-23,253,219
+170,Broken drawer,2023-04-23,396,253
+171,Rusty faucet,2023-07-15,113,394
+172,Damaged countertop,2023-08-28,193,243
+173,Leaky roof,2024-05-17,354,286
+174,Broken window,2023-02-10,396,136
+175,Soggy drywall,2024-03-28,197,189
+176,Dripping shower,2023-10-31,359,54
+177,Flickering lights,2023-07-02,52,204
+178,Freezing refrigerator,2023-08-13,94,41
+179,Clogged drain,2024-01-25,271,267
+180,Broken thermostat,2023-04-01,349,365
+181,Foul taste in water,2023-01-15,72,108
+182,Flickering lights,2024-04-27,192,100
+183,AC not working,2023-05-20,120,42
+184,Cracked sidewalk,2023-11-10,13,370
+185,Faulty wiring,2023-06-22,204,143
+186,Mold growth,2024-03-11,106,267
+187,Damaged fence,2023-02-20,251,155
+188,Damaged fence,2023-04-03,15,130
+189,Jammed lock,2023-06-18,305,244
+190,Pest infestation,2023-07-18,230,302
+191,Mold growth,2023-09-07,15,230
+192,Toilet clog,2023-03-03,46,241
+193,Flickering screen,2024-01-08,27,4
+194,Leaking pipe,2023-11-09,227,313
+195,Foul taste in water,2024-01-13,260,344
+196,Rattling pipes,2023-03-09,397,87
+197,Flickering screen,2024-03-10,10,288
+198,Ceiling leak,2023-12-13,3,289
+199,Broken door,2023-01-19,380,230
+200,Jammed garbage disposal,2023-01-31,210,29
+201,Broken window,2023-08-10,327,289
+202,Flickering lights,2024-01-20,147,332
+203,Rusty faucet,2023-05-06,287,178
+204,Hissing radiator,2024-03-07,301,246
+205,Water damage,2023-09-26,328,392
+206,Clogged drain,2023-12-16,69,63
+207,Faulty wiring,2023-05-10,93,280
+208,Pest infestation,2023-05-06,109,276
+209,Moldy odor,2023-11-13,180,211
+210,Broken drawer,2023-03-04,343,214
+211,Soggy drywall,2023-04-28,304,333
+212,Cracked sidewalk,2023-10-30,221,279
+213,Foul taste in water,2023-06-27,338,77
+214,Flickering lights,2024-02-25,163,56
+215,Heater issue,2023-05-05,191,294
+216,Flickering lights,2023-12-13,279,365
+217,Jammed lock,2024-05-21,274,106
+218,Rattling pipes,2023-11-20,207,294
+219,Leaking pipe,2023-05-03,354,31
+220,Window won't close,2023-01-09,372,166
+221,Leaking pipe,2023-04-02,307,187
+222,Foul smell,2023-01-03,225,358
+223,Loose tile,2023-08-03,205,388
+224,Damaged fence,2023-07-08,110,347
+225,Jammed lock,2023-12-06,41,349
+226,Moldy odor,2023-04-07,50,278
+227,Air conditioning leak,2023-01-24,250,264
+228,Cracked wall,2023-02-04,237,238
+229,Clogged drain,2023-04-26,22,361
+230,Dripping shower,2023-11-29,140,246
+231,Window won't close,2023-09-17,277,189
+232,Clogged drain,2023-04-09,84,5
+233,Rodent sighting,2024-05-14,220,109
+234,Dripping shower,2023-11-24,286,305
+235,Stuck window,2023-10-15,345,76
+236,Water damage,2024-04-27,349,169
+237,Flickering screen,2023-02-13,101,341
+238,Stuck window,2023-08-12,261,242
+239,Plumbing issue,2023-11-15,296,171
+240,Pest infestation,2024-04-24,157,85
+241,Flickering screen,2024-03-28,55,228
+242,Hissing radiator,2023-05-27,174,229
+243,Faulty wiring,2023-03-24,218,217
+244,Mold growth,2023-04-25,330,140
+245,Mold growth,2024-01-13,268,392
+246,Freezing refrigerator,2024-03-27,299,133
+247,Dripping shower,2023-07-21,28,10
+248,Cracked sidewalk,2023-04-04,266,160
+249,Jammed garbage disposal,2023-05-23,235,160
+250,Ceiling leak,2023-01-02,36,84
+251,Jammed lock,2023-01-10,355,346
+252,Water damage,2023-06-07,105,140
+253,Leaking pipe,2023-12-22,287,396
+254,Leaking pipe,2023-12-19,379,298
+255,Cracked wall,2023-11-14,361,240
+256,Cracked sidewalk,2024-05-14,190,339
+257,Foul taste in water,2023-09-09,326,323
+258,Mold growth,2024-02-03,364,106
+259,Broken lock,2023-08-15,211,169
+260,Squeaky floor,2023-03-16,286,147
+261,Loose tile,2023-01-08,21,107
+262,Faulty wiring,2024-04-19,363,4
+263,Plumbing issue,2024-05-17,12,57
+264,Window won't close,2023-05-21,282,231
+265,Flickering lights,2023-06-29,73,363
+266,Air conditioning leak,2024-03-30,16,143
+267,Broken window,2023-03-30,264,7
+268,Heater issue,2023-05-01,392,70
+269,Broken thermostat,2023-09-25,101,55
+270,Flickering screen,2024-02-20,345,396
+271,Window won't close,2023-02-13,310,309
+272,Cabinet door broken,2024-03-21,290,125
+273,Cabinet door broken,2024-01-31,78,47
+274,Clogged drain,2023-12-15,24,121
+275,Hissing radiator,2023-07-14,292,394
+276,Graffiti,2023-09-05,232,32
+277,Cracked wall,2023-01-30,149,157
+278,Cabinet door broken,2023-02-25,140,345
+279,Mold growth,2024-05-22,394,270
+280,Water damage,2023-03-08,315,172
+281,Cracked wall,2024-01-10,357,315
+282,Moldy odor,2023-11-09,116,8
+283,Flickering lights,2023-10-20,201,390
+284,Broken door,2023-12-25,195,185
+285,Broken drawer,2023-09-09,359,352
+286,Leaking pipe,2024-05-17,14,303
+287,Dripping shower,2023-11-25,295,363
+288,Rusty faucet,2023-08-19,294,73
+289,Damaged flooring,2023-06-20,340,255
+290,Jammed lock,2023-05-02,269,229
+291,Jammed lock,2023-04-26,308,395
+292,Broken appliance,2023-04-28,170,296
+293,Foul taste in water,2023-08-25,277,42
+294,No hot water,2023-01-07,227,221
+295,Stuck window,2023-09-12,200,340
+296,Mold growth,2023-09-03,359,29
+297,Foul taste in water,2023-04-08,265,342
+298,Freezing refrigerator,2023-08-26,268,37
+299,Dripping shower,2023-10-17,353,193
+300,Heater issue,2023-07-09,278,19
+301,Stuck window,2023-02-09,34,154
+302,Jammed garbage disposal,2023-06-09,226,130
+303,Foul smell,2024-01-19,169,213
+304,Rusty faucet,2023-07-27,182,189
+305,Moldy odor,2024-01-11,389,323
+306,Freezing refrigerator,2024-03-17,44,5
+307,Cabinet door broken,2024-03-12,184,50
+308,Broken door,2023-07-28,261,396
+309,Ceiling leak,2023-04-18,130,276
+310,Cracked sidewalk,2023-08-02,192,68
+311,Broken thermostat,2023-09-23,189,25
+312,Cabinet door broken,2023-04-05,280,316
+313,Broken appliance,2023-06-25,286,117
+314,Broken lock,2024-04-25,264,196
+315,Stuck window,2023-11-20,232,68
+316,Stained carpet,2023-02-21,205,288
+317,Squeaky floor,2024-01-01,275,302
+318,Broken switch,2023-09-21,260,160
+319,Stuck window,2023-06-17,138,93
+320,Cracked sidewalk,2023-09-12,225,292
+321,Freezing refrigerator,2023-02-03,109,5
+322,Cracked wall,2023-02-06,24,71
+323,Rattling pipes,2023-11-19,392,205
+324,Leaky roof,2023-03-03,179,163
+325,Leaking pipe,2023-10-20,273,198
+326,Pest infestation,2023-11-11,90,201
+327,Soggy drywall,2024-03-05,112,351
+328,Moldy odor,2023-03-10,161,143
+329,No hot water,2024-05-14,276,268
+330,Cracked wall,2023-04-21,265,292
+331,Broken window,2024-01-29,88,239
+332,Smashed mirror,2023-05-24,217,102
+333,Cracked sidewalk,2023-11-21,395,192
+334,Stained carpet,2023-01-09,205,199
+335,Broken appliance,2024-02-29,395,108
+336,Soggy drywall,2024-01-04,369,249
+337,Toilet clog,2024-04-26,38,11
+338,Broken window,2024-04-24,312,367
+339,Cracked sidewalk,2024-02-12,387,106
+340,Moldy odor,2023-03-06,150,126
+341,Stuck window,2023-11-07,172,88
+342,Plumbing issue,2023-06-08,7,266
+343,Electrical problem,2024-03-22,160,232
+344,Water damage,2024-03-13,131,115
+345,Foul taste in water,2023-01-31,217,131
+346,Foul smell,2023-02-27,199,352
+347,Broken switch,2024-04-22,116,137
+348,Window won't close,2023-09-04,78,251
+349,Flickering screen,2024-03-01,197,146
+350,Rusty faucet,2024-02-18,378,369
+351,Hissing radiator,2023-04-25,172,116
+352,Stained carpet,2024-04-24,280,225
+353,Faulty wiring,2023-10-12,347,59
+354,Faulty wiring,2023-03-31,259,206
+355,Damaged countertop,2024-04-19,354,36
+356,Plumbing issue,2023-03-24,1,220
+357,Damaged flooring,2024-05-12,335,241
+358,Ceiling leak,2024-02-04,308,52
+359,Broken door,2024-01-29,150,224
+360,Flickering screen,2024-05-08,249,93
+361,Heater issue,2023-01-24,215,45
+362,Pest infestation,2023-02-11,87,137
+363,Broken door,2023-05-15,30,91
+364,Ceiling leak,2023-12-11,350,388
+365,Heater issue,2023-04-14,241,308
+366,Water damage,2023-10-29,316,45
+367,Rodent sighting,2023-01-22,392,375
+368,Smashed mirror,2023-04-25,67,264
+369,Cracked wall,2023-01-11,289,4
+370,Broken drawer,2024-02-02,316,351
+371,Clogged drain,2023-12-06,329,56
+372,Cracked wall,2023-01-29,354,86
+373,Cabinet door broken,2024-01-19,212,266
+374,Foul smell,2023-08-04,113,353
+375,Squeaky floor,2023-06-24,32,156
+376,Air conditioning leak,2023-06-03,75,15
+377,Broken door,2023-09-16,139,220
+378,Stuck window,2024-05-22,369,384
+379,Smashed mirror,2024-03-17,27,1
+380,Broken thermostat,2023-01-21,51,387
+381,Hissing radiator,2024-05-10,104,191
+382,Broken drawer,2023-12-23,111,330
+383,Stained carpet,2024-01-27,394,93
+384,Stuck window,2023-10-28,341,314
+385,Leaking pipe,2024-03-25,366,27
+386,Foul taste in water,2024-04-06,393,38
+387,Electrical problem,2023-11-19,200,222
+388,Damaged countertop,2024-02-21,254,208
+389,Rodent sighting,2024-03-31,230,291
+390,Cracked wall,2024-04-07,69,219
+391,Damaged countertop,2023-06-13,172,195
+392,Jammed garbage disposal,2023-12-02,236,68
+393,Mold growth,2023-11-18,344,137
+394,Stained carpet,2023-07-25,65,92
+395,Graffiti,2023-10-11,52,338
+396,Broken window,2024-02-18,354,298
+397,Squeaky floor,2024-02-26,372,30
+398,Air conditioning leak,2024-05-18,84,132
+399,Freezing refrigerator,2023-02-22,371,253
+400,Hissing radiator,2023-07-16,198,122

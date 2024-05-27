@@ -1,0 +1,220 @@
+-- Insert into Room
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (1, 'Single', 'Occupied', 'Clean');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (2, 'Double', 'Vacant', 'Dirty');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (3, 'Suite', 'Occupied', 'Clean');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (4, 'Single', 'Vacant', 'Dirty');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (5, 'Double', 'Occupied', 'Clean');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (6, 'Suite', 'Vacant', 'Dirty');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (7, 'Single', 'Occupied', 'Clean');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (8, 'Double', 'Vacant', 'Dirty');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (9, 'Suite', 'Occupied', 'Clean');
+
+INSERT INTO Room (RID, Type, Occupancy_Status, Cleaning_Status)
+VALUES (10, 'Single', 'Vacant', 'Dirty');
+
+-- Insert into Cleaning_Staff
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (1, 'Alice Johnson', 'Morning', 'alice.johnson@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (2, 'Bob Smith', 'Evening', 'bob.smith@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (3, 'Carol White', 'Night', 'carol.white@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (4, 'David Brown', 'Morning', 'david.brown@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (5, 'Eva Green', 'Evening', 'eva.green@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (6, 'Frank Black', 'Night', 'frank.black@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (7, 'Grace Blue', 'Morning', 'grace.blue@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (8, 'Henry Yellow', 'Evening', 'henry.yellow@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (9, 'Ivy Red', 'Night', 'ivy.red@example.com');
+
+INSERT INTO Cleaning_Staff (SID, Name, Shift, Mail)
+VALUES (10, 'Jack Orange', 'Morning', 'jack.orange@example.com');
+
+
+-- Insert into Cleaning_Supply
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (1, 'Detergent', 50, 'Storage Room 1');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (2, 'Bleach', 30, 'Storage Room 2');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (3, 'Soap', 100, 'Storage Room 1');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (4, 'Disinfectant', 40, 'Storage Room 2');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (5, 'Broom', 20, 'Storage Room 1');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (6, 'Mop', 25, 'Storage Room 2');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (7, 'Bucket', 30, 'Storage Room 1');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (8, 'Vacuum Cleaner', 10, 'Storage Room 2');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (9, 'Trash Bags', 200, 'Storage Room 1');
+
+INSERT INTO Cleaning_Supply (SUID, Name, Quantity, Location)
+VALUES (10, 'Gloves', 150, 'Storage Room 2');
+
+-- Insert into Cleaning_Task
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (1, 'Pending', 1, 1);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (2, 'Completed', 2, 2);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (3, 'Pending', 3, 3);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (4, 'Completed', 4, 4);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (5, 'Pending', 5, 5);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (6, 'Completed', 6, 6);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (7, 'Pending', 7, 7);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (8, 'Completed', 8, 8);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (9, 'Pending', 9, 9);
+
+INSERT INTO Cleaning_Task (TID, Status, RID, SID)
+VALUES (10, 'Completed', 10, 10);
+
+-- Insert into Maintenance_Request
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (1, 'Leaky faucet', TO_DATE('2023-05-01', 'YYYY-MM-DD'), 1, 1);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (2, 'Broken window', TO_DATE('2023-05-02', 'YYYY-MM-DD'), 2, 2);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (3, 'Malfunctioning AC', TO_DATE('2023-05-03', 'YYYY-MM-DD'), 3, 3);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (4, 'Clogged drain', TO_DATE('2023-05-04', 'YYYY-MM-DD'), 4, 4);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (5, 'Broken door handle', TO_DATE('2023-05-05', 'YYYY-MM-DD'), 5, 5);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (6, 'No hot water', TO_DATE('2023-05-06', 'YYYY-MM-DD'), 6, 6);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (7, 'Faulty light switch', TO_DATE('2023-05-07', 'YYYY-MM-DD'), 7, 7);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (8, 'Running toilet', TO_DATE('2023-05-08', 'YYYY-MM-DD'), 8, 8);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (9, 'Stained carpet', TO_DATE('2023-05-09', 'YYYY-MM-DD'), 9, 9);
+
+INSERT INTO Maintenance_Request (MID, Issue_Description, Date_Reported, RID, SID)
+VALUES (10, 'Cracked tile', TO_DATE('2023-05-10', 'YYYY-MM-DD'), 10, 10);
+
+-- Insert into Inspection_Logs
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (1, TO_DATE('2023-05-10', 'YYYY-MM-DD'), 'Pass', 1);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (2, TO_DATE('2023-05-11', 'YYYY-MM-DD'), 'Fail', 2);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (3, TO_DATE('2023-05-12', 'YYYY-MM-DD'), 'Pass', 3);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (4, TO_DATE('2023-05-13', 'YYYY-MM-DD'), 'Fail', 4);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (5, TO_DATE('2023-05-14', 'YYYY-MM-DD'), 'Pass', 5);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (6, TO_DATE('2023-05-15', 'YYYY-MM-DD'), 'Fail', 6);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (7, TO_DATE('2023-05-16', 'YYYY-MM-DD'), 'Pass', 7);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (8, TO_DATE('2023-05-17', 'YYYY-MM-DD'), 'Fail', 8);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (9, TO_DATE('2023-05-18', 'YYYY-MM-DD'), 'Pass', 9);
+
+INSERT INTO Inspection_Logs (LID, Inspection_Date, Inspection_Result, RID)
+VALUES (10, TO_DATE('2023-05-19', 'YYYY-MM-DD'), 'Fail', 10);
+
+-- Insert into Need_for
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (1, 1, 1, 1);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (2, 2, 2, 2);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (3, 3, 3, 3);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (4, 4, 4, 4);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (5, 5, 5, 5);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (6, 6, 6, 6);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (7, 7, 7, 7);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (8, 8, 8, 8);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (9, 9, 9, 9);
+
+INSERT INTO Need_for (SUID, TID, RID, SID)
+VALUES (10, 10, 10, 10);
+
+-- Commit the transactions
+COMMIT;
